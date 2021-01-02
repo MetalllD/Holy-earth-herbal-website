@@ -1,0 +1,43 @@
+.Navbar{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height:10vh;
+    
+  }
+
+
+Link{
+    Z-index:30;
+}
+
+img{
+    align-self: center;
+    margin-bottom: -100px; 
+    margin-top:20px; 
+    Z-index:30;
+}
+
+.link{
+    margin-inline:20px;
+}
+
+b{
+    color:#374B22;
+}
+
+b:hover{
+    color:black;
+}
+
+
+.toggle{
+    margin-left:90%;
+    background-color:#C8E3D9;
+}
+
+#responsive-navbar-nav{
+    margin-top:50px;
+    color:#374B22;
+    font-size: 20px;
+}

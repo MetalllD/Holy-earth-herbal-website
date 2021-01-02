@@ -1,0 +1,22 @@
+.Home{
+    background-color: #374B22;
+    color:white;
+  }
+
+h1{
+    position: relative;
+    font-family: yeseva;
+    padding:10%;
+    padding-inline: 20%;
+}
+
+.bowls{
+    position: relative;
+    margin-top: -90px;
+}
+
+
+@font-face {
+    font-family: yeseva;
+    src: url(./Fonts/YesevaOne-Regular.ttf);
+  }
