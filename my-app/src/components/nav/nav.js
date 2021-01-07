@@ -1,5 +1,5 @@
 import './nav.css';
-import logo from './logo.png';
+import logo from '../../assets/logo.png';
 import {Link, Switch} from 'react-router-dom';
 import {Nav,Navbar} from 'react-bootstrap';
 
@@ -20,13 +20,13 @@ alt="logo"
 <Navbar.Toggle className="toggle" aria-controls="responsive-navbar-nav" />
 <Navbar.Collapse id="responsive-navbar-nav">
 <Nav className="mr-auto">
-    <Nav.Link className='link' href="/"><b>Home</b></Nav.Link>
-    <Nav.Link className='link' href="/products"><b>Products</b></Nav.Link>
-    <Nav.Link className='link' href="/blogs"><b>Blogs</b></Nav.Link>
+    <Nav.Link className='link' href="/">Home</Nav.Link>
+    <Nav.Link className='link' href="/products">Products</Nav.Link>
+    <Nav.Link className='link' href="/blogs">Blogs</Nav.Link>
   </Nav>
   <Nav>
-    <Nav.Link className='link' href="/about"><b>About</b></Nav.Link>
-    <Nav.Link className='link' href="/contact"><b>Contact</b></Nav.Link>
+    <Nav.Link className='link' href="/about">About</Nav.Link>
+    <Nav.Link className='link' href="/contact">Contact</Nav.Link>
   </Nav>
 </Navbar.Collapse>
 </Navbar>

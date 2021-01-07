@@ -1,10 +1,10 @@
 import './App.css';
-import Navigation from './nav';
-import Products from './products';
-import About from './about';
-import Contact from './contact';
-import Blogs from './blogs';
-import Home from './home';
+import Navigation from './components/nav/nav';
+import Products from './components/products/products';
+import About from './components/about/about';
+import Contact from './components/contact/contact';
+import Blogs from './components/blogs/blogs';
+import Home from './components/home/home';
 import {BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
 function App() {

@@ -1,0 +1,129 @@
+.Home{
+    height:500vh;
+    background: url('../../assets/marbal-back.png');
+    background-repeat: repeat-y;
+  }
+
+@font-face{
+  font-family:poppins-regular;
+  src : url('../../Fonts/Poppins-Regular.ttf');
+}
+
+@font-face {
+  font-family: yeseva;
+  src: url('../../Fonts/YesevaOne-Regular.ttf');
+}
+
+/*Hero-section*/
+.hero{
+  background-color: #374B22;
+  height:75vh;
+}
+
+.hero-section{
+  display: flex;
+}
+
+#leaf{
+  order:1;
+  width:50%;
+}
+
+#leaf img{
+  width:60%;
+  float:left;
+  margin-top:25%;
+}
+
+#title{
+  z-index:50;
+  position:absolute;
+  margin-top:-700px;
+  padding:27%;
+}
+
+h1{
+  color:white;
+  font-family: yeseva;
+  font-size:7vw;
+  font-size:3vmax;
+}
+
+h6{
+  font-family: poppins-regular;
+  color:#E0FBC9;
+  margin-top:5%;
+  font-size:1.2vw;
+  font-size:1.2vmax;
+}
+
+#bowls{
+  order:3;
+  width:50%;
+}
+
+#bowls img{
+    filter: drop-shadow(15px 15px 30px rgba(0, 0, 0, 0.4));
+    width:70%;
+    float:right;
+    margin-top:0px;
+}
+
+@media (max-width:500px){
+  .hero{
+    height:70vh;
+  }
+
+  #title{
+    padding:15%;
+    margin-top:-500px;
+  }
+
+  .hero-section{
+    display: flex;
+    padding-top: 400px;
+  }
+
+  #leaf img{
+    width:110%;
+  }
+
+  #bowls img{
+    width:120%;
+  }
+}
+
+/*Products section*/
+
+.products{
+  display:flex;
+  justify-content:center;
+}
+
+#prod-img{
+  width:50%;
+}
+
+#prod-img img{
+  width:100%;
+}
+
+#descri{
+  width:30%;
+  padding:30px;
+}
+
+#products h6{
+  padding:20px;
+  color:black;
+  text-align: left;
+}
+
+#products h1{
+  color:#374B22;
+  padding:100px;
+}
+
+
+
+

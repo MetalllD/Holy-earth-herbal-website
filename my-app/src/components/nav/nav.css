@@ -2,10 +2,14 @@
     display:flex;
     justify-content: space-around;
     align-items: center;
-    min-height:10vh;
-    
-  }
+    min-height:10vh;  
+}
 
+
+@font-face {
+    font-family: poppins;
+    src: url('../../Fonts/Poppins-Medium.ttf');
+}
 
 Link{
     Z-index:30;
@@ -19,17 +23,14 @@ img{
 }
 
 .link{
-    margin-inline:20px;
+    margin-inline:20px;  
+    font-family: poppins;
+    font-size: 16px;
 }
 
-b{
-    color:#374B22;
+Nav{
+    color:#374B22;  
 }
-
-b:hover{
-    color:black;
-}
-
 
 .toggle{
     margin-left:90%;
