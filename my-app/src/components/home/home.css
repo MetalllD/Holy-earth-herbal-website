@@ -17,7 +17,7 @@
 /*Hero-section*/
 .hero{
   background-color: #374B22;
-  height:75vh;
+  height:80vh;
 }
 
 .hero-section{
@@ -38,7 +38,7 @@
 #title{
   z-index:50;
   position:absolute;
-  margin-top:-700px;
+  margin-top:-750px;
   padding:27%;
 }
 
@@ -92,38 +92,4 @@ h6{
     width:120%;
   }
 }
-
-/*Products section*/
-
-.products{
-  display:flex;
-  justify-content:center;
-}
-
-#prod-img{
-  width:50%;
-}
-
-#prod-img img{
-  width:100%;
-}
-
-#descri{
-  width:30%;
-  padding:30px;
-}
-
-#products h6{
-  padding:20px;
-  color:black;
-  text-align: left;
-}
-
-#products h1{
-  color:#374B22;
-  padding:100px;
-}
-
-
-
 

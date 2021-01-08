@@ -1,7 +1,9 @@
 import './home.css';
+import Logo from './logo-line';
+import ProdSect from './product-sect';
 import bowls from '../../assets/bowls.png';
 import leaf from '../../assets/leaf.png';
-import product from '../../assets/Product-home.png'
+
 
 function Home(){
     return(
@@ -27,24 +29,17 @@ function Home(){
                 <h6>Beautifully crafted handmade natural products made from 100 percent natural products </h6>
           </div>
 
+        <section id="logo-line">
+          <Logo />
+        </section>
+
         <section id="products">
-          <h1>Products</h1>
-          <div className="products">
-                <div id="prod-img">
-                <img
-                    src={product}
-                    alt="product"
-                />
-                </div>
-                <div id="descri">
-                  <h6>
-                  We make the wide range of organic products. Starting from soaps, Shampoos, Body mists and more. All the products are made using 100% natural ingredients.
-                  </h6>
-                </div>
-          </div>
-          </section>
+          <ProdSect />
+        </section>
+
       </div>
     )
   }
+
 
 export default Home;

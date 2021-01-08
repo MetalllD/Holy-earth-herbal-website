@@ -10,8 +10,8 @@ function Navigation() {
 
 <Link to ='/'><img
 src={logo}
-width="200"
-height="140"
+width="150"
+height="100"
 className="d-inline-block align-top"
 alt="logo"
 /></Link>

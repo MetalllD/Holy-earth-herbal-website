@@ -1,0 +1,20 @@
+.Logo-line{
+    display:flex;
+    justify-content: center;
+    margin:20px 0px 20px 0px;
+    height:40vh;
+    align-items: flex-start;
+    align-content: flex-start;
+}
+
+#logo1,#logo2,#logo3,#logo4,#logo5,#logo6{
+    width:15%;
+    height:auto; 
+    height:inherit;
+}
+
+#logo1 img,#logo2 img,#logo3 img,#logo4 img,#logo5 img,#logo6 img{
+    width:100%;
+    height:auto;
+    margin-top:0;
+}
