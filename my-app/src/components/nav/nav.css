@@ -41,3 +41,11 @@ Nav{
     color:#374B22;
     font-size: 20px;
 }
+
+/* Extra small devices (phones, 500px and down) */
+@media (max-width: 500px) {
+    img{
+        margin-bottom: -70px; 
+        
+    }
+}

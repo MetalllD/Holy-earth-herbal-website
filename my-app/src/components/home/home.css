@@ -69,7 +69,8 @@ h6{
     margin-top:0px;
 }
 
-@media (max-width:500px){
+/* Extra small devices (phones, 600px and down) */
+@media (max-width: 500px) {
   .hero{
     height:70vh;
   }
@@ -92,4 +93,32 @@ h6{
     width:120%;
   }
 }
+
+@media (max-width:768px){
+
+  .hero{
+    height:80vh;
+  }
+
+  #title{
+    padding:15%;
+    margin-top:-550px;
+  }
+
+  .hero-section{
+    display: flex;
+    padding-top: 350px;
+  }
+
+  #leaf img{
+    width:90%;
+  }
+
+  #bowls img{
+    width:90%;
+  }
+}
+
+
+
 

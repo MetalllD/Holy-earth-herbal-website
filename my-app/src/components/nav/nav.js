@@ -6,33 +6,34 @@ import {Nav,Navbar} from 'react-bootstrap';
 
 function Navigation() {
   return(
-<div>
+      <div>
 
-<Link to ='/'><img
-src={logo}
-width="150"
-height="100"
-className="d-inline-block align-top"
-alt="logo"
-/></Link>
+        <Link to ='/'>
+          <img
+            src={logo}
+            width="150"
+            height="100"
+            className="d-inline-block align-top"
+            alt="logo"/>
+        </Link>
 
-<Navbar collapseOnSelect expand="lg" className='Navbar'>
-<Navbar.Toggle className="toggle" aria-controls="responsive-navbar-nav" />
-<Navbar.Collapse id="responsive-navbar-nav">
-<Nav className="mr-auto">
-    <Nav.Link className='link' href="/">Home</Nav.Link>
-    <Nav.Link className='link' href="/products">Products</Nav.Link>
-    <Nav.Link className='link' href="/blogs">Blogs</Nav.Link>
-  </Nav>
-  <Nav>
-    <Nav.Link className='link' href="/about">About</Nav.Link>
-    <Nav.Link className='link' href="/contact">Contact</Nav.Link>
-  </Nav>
-</Navbar.Collapse>
-</Navbar>
+        <Navbar collapseOnSelect expand="lg" className='Navbar'>
+        <Navbar.Toggle className="toggle" aria-controls="responsive-navbar-nav" />
+        <Navbar.Collapse id="responsive-navbar-nav">
+        <Nav className="mr-auto">
+            <Nav.Link className='link' href="/">Home</Nav.Link>
+            <Nav.Link className='link' href="/products">Products</Nav.Link>
+            <Nav.Link className='link' href="/blogs">Blogs</Nav.Link>
+          </Nav>
+          <Nav>
+            <Nav.Link className='link' href="/about">About</Nav.Link>
+            <Nav.Link className='link' href="/contact">Contact</Nav.Link>
+          </Nav>
+        </Navbar.Collapse>
+        </Navbar>
 
 
-</div>
+      </div>
 );
 }
 
