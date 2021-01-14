@@ -9,6 +9,12 @@ function Home(){
     return(
       <div className="Home">
         <div className="hero">
+        <div id="title">
+            <text>
+                <h1>Beautifully crafted handmade natural products</h1>
+                <h6>Beautifully crafted handmade natural products made from 100 percent natural products </h6>
+            </text>
+          </div>
           <div className="hero-section">
               <div id="leaf">
                 <img
@@ -23,11 +29,9 @@ function Home(){
                 />
              </div>
           </div>
+  
         </div>
-          <div id="title">
-                <h1>Beautifully crafted handmade natural products</h1>
-                <h6>Beautifully crafted handmade natural products made from 100 percent natural products </h6>
-          </div>
+          
 
         <section id="logo-line">
           <Logo />

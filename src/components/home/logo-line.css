@@ -1,10 +1,36 @@
-.Logo-line{
+
+    .Logo-line{
+        display:flex;
+        justify-content: center;
+        margin:10% 0px 20px 0px;
+        align-items: flex-start;
+        align-content: flex-start;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    
+    #logo1,#logo2,#logo3,#logo4,#logo5,#logo6{
+            width:30%;
+            height:auto; 
+    }
+    
+    #logo1 img,#logo2 img,#logo3 img,#logo4 img,#logo5 img,#logo6 img{
+        width:100%;
+        height:auto;
+        margin-top:0;
+    }
+    
+    
+    
+@media (min-width:550px){
+    .Logo-line{
     display:flex;
     justify-content: center;
-    margin:20px 0px 20px 0px;
-    height:40vh;
+    margin:10% 0px 20px 0px;
     align-items: flex-start;
     align-content: flex-start;
+    flex-direction: row;
+    flex-wrap: nowrap;
 }
 
 #logo1,#logo2,#logo3,#logo4,#logo5,#logo6{
@@ -17,4 +43,6 @@
     width:100%;
     height:auto;
     margin-top:0;
+}
+
 }

@@ -1,5 +1,5 @@
 .Home{
-    height:500vh;
+
     background: url('../../assets/marbal-back.png');
     background-repeat: repeat-y;
   }
@@ -20,8 +20,53 @@
   height:80vh;
 }
 
+@media (max-width:1000px){
+  .hero{
+    height:60vh;
+  }
+}
+
+@media (max-width:700px){
+  .hero{
+    height:50vh;
+  }
+}
+
+@media (max-width:500px){
+  .hero{
+    height:40vh;
+  }
+}
+
+@media (max-width:400px){
+  .hero{
+    height:40vh;
+  }
+}
+
+
+
 .hero-section{
   display: flex;
+  margin-top:-13%;
+}
+
+@media (max-width:1020px){
+  .hero-section{
+    margin-top:-5%;
+  }
+}
+
+@media (max-width:700px){
+  .hero-section{
+    margin-top:-5%;
+  }
+}
+
+@media (max-width:500px){
+  .hero-section{
+    margin-top:-5%;
+  }
 }
 
 #leaf{
@@ -36,10 +81,16 @@
 }
 
 #title{
+  position:relative;
+  top: 25%;
   z-index:50;
-  position:absolute;
-  margin-top:-750px;
-  padding:27%;
+  padding:0% 25% 0% 25%;
+}
+
+@media (max-width:500px){
+  #title{
+    top:20%;
+  }
 }
 
 h1{
@@ -63,62 +114,10 @@ h6{
 }
 
 #bowls img{
-    filter: drop-shadow(15px 15px 30px rgba(0, 0, 0, 0.4));
-    width:70%;
+    
+    width:50%;
     float:right;
     margin-top:0px;
 }
-
-/* Extra small devices (phones, 600px and down) */
-@media (max-width: 500px) {
-  .hero{
-    height:70vh;
-  }
-
-  #title{
-    padding:15%;
-    margin-top:-500px;
-  }
-
-  .hero-section{
-    display: flex;
-    padding-top: 400px;
-  }
-
-  #leaf img{
-    width:110%;
-  }
-
-  #bowls img{
-    width:120%;
-  }
-}
-
-@media (max-width:768px){
-
-  .hero{
-    height:80vh;
-  }
-
-  #title{
-    padding:15%;
-    margin-top:-550px;
-  }
-
-  .hero-section{
-    display: flex;
-    padding-top: 350px;
-  }
-
-  #leaf img{
-    width:90%;
-  }
-
-  #bowls img{
-    width:90%;
-  }
-}
-
-
 
 

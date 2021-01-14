@@ -1,20 +1,17 @@
 import './nav.css';
 import logo from '../../assets/logo.png';
-import {Link, Switch} from 'react-router-dom';
+import {Link} from 'react-router-dom';
 import {Nav,Navbar} from 'react-bootstrap';
 
 
 function Navigation() {
   return(
       <div>
-
-        <Link to ='/'>
+        <Link to ="/">
           <img
             src={logo}
-            width="150"
-            height="100"
-            className="d-inline-block align-top"
-            alt="logo"/>
+            className="home-logo align-top"
+            alt="logo" />
         </Link>
 
         <Navbar collapseOnSelect expand="lg" className='Navbar'>

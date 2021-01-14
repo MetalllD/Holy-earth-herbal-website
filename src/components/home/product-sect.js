@@ -3,7 +3,7 @@ import product from '../../assets/Product-home.png';
 
 function ProdSect(){
     return(
-      <div className="Home">
+      <div>
             <h1>Products</h1>
             <div className="products">
                 <div id="prod-img">

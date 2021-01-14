@@ -16,9 +16,26 @@ Link{
     Z-index:30;
 }
 
-img{
+.home-logo{
+    width:12%;
+    height:12%;
     margin-bottom: -400px; 
     margin-top:20px;
+    Z-index:30;
+}
+
+@media (max-width:700px){
+    .home-logo{
+        width:18%;
+        height:auto;   
+    }
+}
+
+@media (max-width:500px){
+    .home-logo{
+        width:21%;
+        height:auto;   
+    }
 }
 
 .link{
@@ -32,7 +49,7 @@ Nav{
 }
 
 .toggle{
-    margin-left:90%;
+    margin:5% 5% 0% 95%;
     background-color:#C8E3D9;
 }
 
@@ -42,10 +59,5 @@ Nav{
     font-size: 20px;
 }
 
-/* Extra small devices (phones, 500px and down) */
-@media (max-width: 500px) {
-    img{
-        margin-bottom: -70px; 
-        
-    }
-}
+
+
