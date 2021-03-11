@@ -5,9 +5,11 @@ import logo3 from '../../assets/logo-03.png';
 import logo4 from '../../assets/logo-04.png';
 import logo5 from '../../assets/logo-05.png';
 import logo6 from '../../assets/logo-06.png';
+import Fade from 'react-reveal/Fade';
 
 function Logo(){
     return(
+      <Fade bottom>
       <div className="Logo-line">
           <div id="logo1">
                  <img
@@ -47,6 +49,7 @@ function Logo(){
           </div>
     
       </div>
+      </Fade>
     )
   }
 
